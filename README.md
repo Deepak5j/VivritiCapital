@@ -1,3 +1,5 @@
+# This repository will update soon.
+
 # VivritiCapital
 
 #### Vivriti Capital Frontend Hiring Challenge
