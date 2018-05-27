@@ -1,4 +1,4 @@
-# This repository will update soon.
+# This repository will updated soon.
 
 # VivritiCapital
 
