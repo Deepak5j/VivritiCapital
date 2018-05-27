@@ -1,4 +1,4 @@
-# This repository will updated soon.
+# This repository will updated soon. (after MAY 27, 11:00 PM IST 😃)
 
 # VivritiCapital
 
