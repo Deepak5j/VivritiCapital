@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vivriti Capital</title>
+        <!--bootstrap4-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css.css" />
+        <script src="js.js"></script>
+    </head>
+    <body onload="dataCheck()">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-sm navbar sticky-top" style="background-color: #000;">
+            <button class="navbar-toggler btnmn" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                ❎
+            </button>
+            <!-- nav menu -->
+            <div class="collapse navbar-collapse menu-overflow" id="navbarsExample03">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-center text-white btnmn" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <h1 class="my-5 text-center text-white">Vivriti Crafts Beer</h1>
+        </header>
+        <section class="container-fluids" >
+
+            <article class="br-30 my-3 py-3 container text-center" style="background-color: cornflowerblue">
+                <h4>Controls</h4>
+                <button class="btnsde btn"onclick="loadData()" id="LoadDataBtnId">Load Data </button>
+                <button class="btnsde btn"onclick="showData()" id="ListBeersBtnId">List Beers </button>
+                <input  class="btn" type="text" id="bearSearch" onkeyup="searchBear()" placeholder="Search bear by name" title="Type in a name">
+                <button class="btn btnsde"onclick="sortAsc()" >Asc Sort</button>
+                <button class="btn btnsde"onclick="sortDsc()" >Dsc Sort</button>
+                <button class="btn btnsde"onclick="sortReset()" >Reset Sort</button>
+                <input  class="btn" type="text" id="bearFilter" onkeyup="filter()" placeholder="Filter Beer style" title="Type in a name">             
+            </article>
+
+            <article id="content" class="my-5 mx-3 container-fluids" style="background-color: bisque"> 
+            </article>
+     
+        </section>
+
+        <footer class="text-center footer pt-3" style="background-color: black; height: 50px;">
+            <a href="http://deepak5j.ml">Deepak Gautam</a>
+        </footer>
+
+    </body>
+</html>

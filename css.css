@@ -1,0 +1,21 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #444;
+}
+article {
+    /*overflow: hidden;*/
+    border-radius: 14px!important;
+}
+table {
+    table-layout: fixed;
+    word-wrap:break-word;    
+}
+.btn {
+    margin-bottom: 3px;
+    background-color: coral
+}
+.btn:hover {
+    background-color: darkblue;
+    color: #fff;
+} 
